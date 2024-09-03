@@ -1,0 +1,153 @@
+.parent{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-gap: 10px;
+}
+
+.child{
+    background-color: lightgreen;
+    padding: 20px;
+}
+
+.one{
+    grid-row: 1/2;
+    grid-column: 1/13;
+}
+
+.two{
+grid-row: 2/3;
+grid-column: 1/7;
+}
+
+.three{
+grid-row: 2/3;
+grid-column: 7/13;
+}
+
+.four{
+grid-row: 3/4;
+grid-column: 1/5;
+
+}
+
+.five{
+    grid-row: 3/4;
+    grid-column: 5/9;
+}
+    
+.six{
+    grid-row: 3/4;
+    grid-column: 9/13;
+}
+    
+.seven{
+    grid-row: 4/5;
+    grid-column: 1/4;
+}
+
+.eight{
+    grid-row: 4/5;
+    grid-column: 4/7;
+}
+    
+.nine{
+    grid-row: 4/5;
+    grid-column: 7/10;
+}
+
+.ten{
+    grid-row: 4/5;
+    grid-column: 10/13;
+}
+
+.eleven{
+    grid-row: 5/6;
+    grid-column: 1/3;
+}
+
+.twelve{
+grid-row: 5/6;
+grid-column: 3/5;
+}
+
+.thirteen{
+grid-row: 5/6;
+grid-column: 5/7;
+}
+
+.fourteen{
+grid-row: 5/6;
+grid-column: 7/9;
+
+}
+
+.fifteen{
+    grid-row: 5/6;
+    grid-column: 9/11;
+}
+    
+.sixteen{
+    grid-row: 5/6;
+    grid-column: 11/13;
+}
+    
+.seventeen{
+    grid-row: 6/7;
+    grid-column: 1/2;
+}
+
+.eighteen{
+    grid-row: 6/7;
+    grid-column: 2/3;
+}
+    
+.nineteen{
+    grid-row: 6/7;
+    grid-column: 3/4;
+}
+
+.twenty{
+    grid-row: 6/7;
+    grid-column: 4/5;
+}
+
+.twentyone{
+    grid-row: 6/7;
+    grid-column: 5/6;
+}
+
+.twentytwo{
+grid-row: 6/7;
+grid-column: 6/7;
+}
+
+.twentythree{
+grid-row:  6/7;
+grid-column: 7/8;
+}
+
+.twentyfour{
+grid-row:  6/7;
+grid-column: 8/9;
+
+}
+
+.twentyfive{
+    grid-row:  6/7;
+    grid-column: 9/10;
+}
+    
+.twentysix{
+    grid-row:  6/7;
+    grid-column: 10/11;
+}
+    
+.twentyseven{
+    grid-row:  6/7;
+    grid-column: 11/12;
+}
+
+.twentyeight{
+    grid-row:  6/7;
+    grid-column: 12/13;
+}
